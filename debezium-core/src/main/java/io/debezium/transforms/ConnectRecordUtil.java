@@ -14,7 +14,8 @@ import java.util.Map;
 import org.apache.kafka.connect.connector.ConnectRecord;
 import org.apache.kafka.connect.transforms.ExtractField;
 import org.apache.kafka.connect.transforms.Flatten;
-import org.apache.kafka.connect.transforms.InsertField;
+
+import io.debezium.transforms.override.InsertField;
 
 /**
  * A set of utilities for more easily creating various kinds of transformations.

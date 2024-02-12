@@ -9,11 +9,11 @@ import static io.debezium.transforms.ExtractNewRecordStateConfigDefinition.DELET
 
 import org.apache.kafka.connect.connector.ConnectRecord;
 import org.apache.kafka.connect.transforms.ExtractField;
-import org.apache.kafka.connect.transforms.InsertField;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import io.debezium.transforms.ConnectRecordUtil;
+import io.debezium.transforms.override.InsertField;
 
 /**
  * An abstract implementation of {@link ExtractRecordStrategy}.
